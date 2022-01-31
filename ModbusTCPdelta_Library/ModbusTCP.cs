@@ -162,7 +162,7 @@ namespace ModbusTCPdelta_Library
 			}
 		}
 
-		private string[] negativeSigns = { "8", "9", "A", "B", "C", "D", "E", "F" };
+		private readonly string[] negativeSigns = { "8", "9", "A", "B", "C", "D", "E", "F" };
 		public string GetSignInt(string hex)
 		{
 			//is number positive or negative?
